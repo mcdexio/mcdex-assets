@@ -11,7 +11,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 (function (config) {
     console.log('MCDEX_CONFIG INIT');
     // const host = 'http://localhost:8081'
-    const host = 'https://raw.githubusercontent.com/mcdexio/mcdex-assets/master';
+    const host = 'https://mcdexio.github.io/mcdex-assets';
     if (!config) {
         window.MCDEX_CONFIG = config = {
             configs: {},
