@@ -27,7 +27,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         };
     }
     config.configs['oracle'] = (() => __awaiter(this, void 0, void 0, function* () {
-        const response = yield fetch(`${host}/config/assets/oracle.json`);
+        const response = yield fetch(`${host}/src/config/assets/oracle.json`);
         return response.json();
     }))();
 })(window.MCDEX_CONFIG);

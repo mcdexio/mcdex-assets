@@ -23,7 +23,7 @@ interface McdexConfig {
     }
 
     config.configs['oracle'] = (async () => {
-        const response = await fetch(`${host}/config/assets/oracle.json`)
+        const response = await fetch(`${host}/src/config/assets/oracle.json`)
         return response.json()
     })()
 
