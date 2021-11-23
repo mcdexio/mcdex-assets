@@ -1,0 +1,1422 @@
+{
+  "oracleType": {
+    "index": 0,
+    "token": 1
+  },
+  "oracleVendor": {
+    "Chainlink": 0,
+    "Band": 1,
+    "MCDEX": 2
+  },
+  "chain": {
+    "ARB_TESTNET": 421611,
+    "ARB": 42161,
+    "BSC": 56
+  },
+  "oracles": {
+    "10": [],
+    "42": [
+      {
+        "underlyingAssetSymbol": "ETH",
+        "priceSymbol": "USD",
+        "address": "0x84F9B276de73c6766aB714f095C93ef2aeE0952E",
+        "vendor": 0,
+        "type": 1
+      },
+      {
+        "underlyingAssetSymbol": "BTC",
+        "priceSymbol": "USD",
+        "address": "0xDEFa9C8a646DFE2960833A05898387206B08b342",
+        "vendor": 0,
+        "type": 1
+      },
+      {
+        "underlyingAssetSymbol": "DPI",
+        "priceSymbol": "USD",
+        "address": "0x231B873bD2ae8707e325fbe45850308e18ed714d",
+        "vendor": 0,
+        "type": 1
+      },
+      {
+        "underlyingAssetSymbol": "DOT",
+        "priceSymbol": "USD",
+        "address": "0x91413ad76641Ab090b61EfEF9Cc51F3acA123350",
+        "vendor": 0,
+        "type": 1
+      },
+      {
+        "underlyingAssetSymbol": "SP500",
+        "priceSymbol": "USD",
+        "address": "0xa4d055E817540D0f5b6DDd4916a758D77B5E7E55",
+        "vendor": 0,
+        "type": 0
+      },
+      {
+        "underlyingAssetSymbol": "TSLA",
+        "priceSymbol": "USD",
+        "address": "0x1e723a23324a61ceFD50e00dDa56B1d2388426E2",
+        "vendor": 0,
+        "type": 0
+      }
+    ],
+    "69": [
+      {
+        "underlyingAssetSymbol": "ETH",
+        "priceSymbol": "USD",
+        "address": "0x07A843FCD4F150700275AD0A5A3A252e50503290",
+        "vendor": 2,
+        "type": 1
+      },
+      {
+        "underlyingAssetSymbol": "BTC",
+        "priceSymbol": "USD",
+        "address": "0x131a6d689a46c947223937929583a586c32Fb349",
+        "vendor": 2,
+        "type": 1
+      }
+    ],
+    "1337": [
+      {
+        "underlyingAssetSymbol": "ETH",
+        "priceSymbol": "USD",
+        "address": "0xbb05666820137B3B1344fE6802830515c015Dd4F",
+        "vendor": 0,
+        "type": 1
+      },
+      {
+        "underlyingAssetSymbol": "BTC",
+        "priceSymbol": "USD",
+        "address": "0xc880Bd54e8D5D38505892e8a8656B55B6D7a1Ef6",
+        "vendor": 0,
+        "type": 1
+      },
+      {
+        "underlyingAssetSymbol": "DPI",
+        "priceSymbol": "USD",
+        "address": "0x34E3b056Fd52BdE8a82c047D51751CE431e79E6F",
+        "vendor": 0,
+        "type": 0
+      },
+      {
+        "underlyingAssetSymbol": "SP500",
+        "priceSymbol": "USD",
+        "address": "0xdf1Cea3495346aDECB749873bB567B6e7083cf0c",
+        "vendor": 0,
+        "type": 0
+      }
+    ],
+    "42161": [
+      {
+        "underlyingAssetSymbol": "ETH",
+        "priceSymbol": "USD",
+        "address": "0x1Cf22B7f84F86c36Cb191BB24993EdA2b191399E",
+        "vendor": 2,
+        "type": 1
+      },
+      {
+        "underlyingAssetSymbol": "BTC",
+        "priceSymbol": "USD",
+        "address": "0x6ee936BdBD329063E8CE1d13F42eFEf912E85221",
+        "vendor": 2,
+        "type": 1
+      },
+      {
+        "underlyingAssetSymbol": "ETH",
+        "priceSymbol": "USD",
+        "address": "0xBE1e0Fd7942E9A6a59Ea8A039744145cb125AC1A",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "BTC",
+        "priceSymbol": "USD",
+        "address": "0xb3fC54ef3A702B0916640688C790ECf622fD9af7",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "AAVE",
+        "priceSymbol": "USD",
+        "address": "0x7Af6Cc6ad070281ecbb2BdD747f46F43D412D6AC",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "AUD",
+        "priceSymbol": "USD",
+        "address": "0xc82480Af5E6B26d5C175f6bEE892Ec59dBc73321",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "BTC",
+        "priceSymbol": "ETH",
+        "address": "0x4691cb19AED32aDc593923361eDb12f05cF1FC2F",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "CHF",
+        "priceSymbol": "USD",
+        "address": "0xE88443d966180520Da0a72039D6eca1FEc5cedfa",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "CNY",
+        "priceSymbol": "USD",
+        "address": "0x180Ca7d280F05dd62751C4642F8009e66A96bC84",
+        "vendor": 0,
+        "type": 0,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "CV",
+        "priceSymbol": "USD",
+        "address": "0x7059D0ae93b93C81bBE1aBA65E0dE157ef67f96B",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "DAI",
+        "priceSymbol": "USD",
+        "address": "0x2681dFE897019A0c25456832209C490eA8ab16d0",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "DODO",
+        "priceSymbol": "USD",
+        "address": "0x1F6a5A55F00f8B3BfF746A922b60124CD8716535",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "EUR",
+        "priceSymbol": "USD",
+        "address": "0xFCF04157a4993F7fE16e4c24cd0CCA65bA1a096c",
+        "vendor": 0,
+        "type": 0,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "FRAX",
+        "priceSymbol": "USD",
+        "address": "0x3b532d482094B272565B20505E00B656e6a605F8",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "KRW",
+        "priceSymbol": "USD",
+        "address": "0x711dd1524dC6CdAE09ff100232e3e4A8e1F5818A",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "LINK",
+        "priceSymbol": "USD",
+        "address": "0x5Cf981F1D4319233cfe42fFf2EEaEd1B259d64A9",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "MIM",
+        "priceSymbol": "USD",
+        "address": "0x0FF97e279C5b18785e8d0e2C1B1435a43D108Ae0",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "PHP",
+        "priceSymbol": "USD",
+        "address": "0x5486085837519BEB4841aFb6CB169b11Dd4CD131",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "SPELL",
+        "priceSymbol": "USD",
+        "address": "0x27BeDBD441b5b669109022f981AB279416d1019d",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "SUSHI",
+        "priceSymbol": "USD",
+        "address": "0x34129bD3f37598FAd2388675c0253D3E913cE806",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "UNI",
+        "priceSymbol": "USD",
+        "address": "0x4d379E605E9654C74f182E4b90491154190b49FE",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "USDC",
+        "priceSymbol": "USD",
+        "address": "0x14C9e2512f0856Fe110D8E58C329141b80c0d9C4",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "USDT",
+        "priceSymbol": "USD",
+        "address": "0x7eBD264946A7f8e48099F212F1b3F87054DF86cF",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "YFI",
+        "priceSymbol": "USD",
+        "address": "0x2af17224B7a4643bC52f2B066BE1a75cF8ad3ba9",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      }
+    ],
+    "421611": [
+      {
+        "underlyingAssetSymbol": "ETH",
+        "priceSymbol": "USD",
+        "address": "0x46Cac3A645ccb00Aa3fFd949A5bBFE942e844690",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "ETH",
+        "priceSymbol": "USD",
+        "address": "0xE2Fe1094F33BCb4366B3B3071bd1E927B38aE402",
+        "vendor": 2,
+        "type": 1
+      },
+      {
+        "underlyingAssetSymbol": "BTC",
+        "priceSymbol": "USD",
+        "address": "0x4603BA4a4F17300C5BD631B881D725238D842c8B",
+        "vendor": 2,
+        "type": 1
+      },
+      {
+        "underlyingAssetSymbol": "DPI",
+        "priceSymbol": "USD",
+        "address": "0x2dbD4Bafa043F7634C6B29dD7a00265eAf0ca042",
+        "vendor": 2,
+        "type": 1
+      },
+      {
+        "underlyingAssetSymbol": "DOT",
+        "priceSymbol": "USD",
+        "address": "0x911f06701c416b79Cb007Efd34a5c6500D25DC59",
+        "vendor": 2,
+        "type": 1
+      },
+      {
+        "underlyingAssetSymbol": "UNI",
+        "priceSymbol": "USD",
+        "address": "0x5355c013FdF63a80a47B20D3d16525E4dA254349",
+        "vendor": 2,
+        "type": 1
+      },
+      {
+        "underlyingAssetSymbol": "SP500",
+        "priceSymbol": "USD",
+        "address": "0x0CFec0509358a77714Df2F8436795BF223B0E51C",
+        "vendor": 2,
+        "type": 0
+      },
+      {
+        "underlyingAssetSymbol": "TSLA",
+        "priceSymbol": "USD",
+        "address": "0x5F9354bbe811Eae3a608EA53adF56f823a13535F",
+        "vendor": 2,
+        "type": 0
+      }
+    ],
+    "56": [
+      {
+        "underlyingAssetSymbol": "ETH",
+        "priceSymbol": "USD",
+        "address": "0xa04197E5F7971E7AEf78Cf5Ad2bC65aaC1a967Aa",
+        "vendor": 2,
+        "type": 1
+      },
+      {
+        "underlyingAssetSymbol": "BTC",
+        "priceSymbol": "USD",
+        "address": "0xcC8A884396a7B3a6e61591D5f8949076Ed0c7353",
+        "vendor": 2,
+        "type": 1
+      },
+      {
+        "underlyingAssetSymbol": "BNB",
+        "priceSymbol": "USD",
+        "address": "0xcE7822A60D78Ae685A602985a978dcAdE249b387",
+        "vendor": 2,
+        "type": 1
+      },
+      {
+        "underlyingAssetSymbol": "SPELL",
+        "priceSymbol": "USD",
+        "address": "0x18f06dae7aca5343b9b399ee2b77a51df8f444fc",
+        "vendor": 2,
+        "type": 1
+      },
+      {
+        "underlyingAssetSymbol": "ETH",
+        "priceSymbol": "USD",
+        "address": "0x2Baac806CB2b7A07f8f73DB1329767E5a3CbDF4e",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "BTC",
+        "priceSymbol": "USD",
+        "address": "0x9542100D1117F75b8b6b8Ddc4DC2C7419A206725",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "BNB",
+        "priceSymbol": "USD",
+        "address": "0xEf5D601ea784ABd465c788C431d990b620e5Fee6",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "SPELL",
+        "priceSymbol": "USD",
+        "address": "0x11bD9582af7Aead7638Aa9427489814DCb21395a",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "XBC",
+        "priceSymbol": "USD",
+        "address": "0x1Cf22B7f84F86c36Cb191BB24993EdA2b191399E",
+        "vendor": 0,
+        "type": 0,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "XLC",
+        "priceSymbol": "USD",
+        "address": "0xaffFA077B42aea1e4c94da21eAb227eAB2edC0C4",
+        "vendor": 0,
+        "type": 0,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "AAPL",
+        "priceSymbol": "USD",
+        "address": "0xf7E800fEDb98DFCF93689409DDaE7f670208Bd58",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "AAVE",
+        "priceSymbol": "USD",
+        "address": "0x0544B78760aab5db937D230A444DA7eF9f7319C9",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "ADA",
+        "priceSymbol": "BNB",
+        "address": "0xf985cA33B8b787599DE77E4Ccf2d0Ecbf27d87d9",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "ADA",
+        "priceSymbol": "USD",
+        "address": "0xCEda10b4d3bdE429DdA3A6daB87b38360313CBdB",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "ALPACA",
+        "priceSymbol": "USD",
+        "address": "0x129AD040Bd127c00d6De9051b3CfE9F3E36453D3",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "ALPHA",
+        "priceSymbol": "BNB",
+        "address": "0x34A99303387f0CC94CA1BeFb8342388cD92eE42e",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "AMZN",
+        "priceSymbol": "USD",
+        "address": "0xDe3a17CCF7905967D2837F1680a93EcECa1849fF",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "ARKK",
+        "priceSymbol": "USD",
+        "address": "0x86BB3818336976A251de8B8e37D4DF4CEbCacf41",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "ATOM",
+        "priceSymbol": "USD",
+        "address": "0x3BCb20b63cf356DB2dB55ACE8149C70271184550",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "AUTO",
+        "priceSymbol": "USD",
+        "address": "0x667A36B6287e15f54A0347cf06ceD995337755bd",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "AXS",
+        "priceSymbol": "USD",
+        "address": "0x834DF215a7336Aee9ba883871d32ddde8d23D736",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "BAC",
+        "priceSymbol": "USD",
+        "address": "0x99Abe3376a7edA3e4DBAACc9F66D1b99503dE42a",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "BAND",
+        "priceSymbol": "BNB",
+        "address": "0x1a5Bd84091481e49c9cADaEB47B11FA4e6aB831a",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "BAND",
+        "priceSymbol": "USD",
+        "address": "0xCBe10Aa4baAb18E75F6D9778aca6c1aFb889A7cF",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "BCH",
+        "priceSymbol": "BNB",
+        "address": "0x2842c57C2736BB459BdAc97bAA22596e71f05811",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "BCH",
+        "priceSymbol": "USD",
+        "address": "0x592c6A6419fB86BAD15926c840A9f9306f69f590",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "BETH",
+        "priceSymbol": "USD",
+        "address": "0x8a4A969519CAfF223a7C0AE7b7e0eb475aA461dc",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "BIDU",
+        "priceSymbol": "USD",
+        "address": "0x32fc94f5E0351B673Aaa7a6C0893246f5dCD9d73",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "BIFI",
+        "priceSymbol": "USD",
+        "address": "0x4efF997db4B524ADDfBF98e713CbD81A066E2717",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "BRK.B",
+        "priceSymbol": "USD",
+        "address": "0xa9ceEdB6710fDAed8077744570384eE1d75D0b27",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "BTC",
+        "priceSymbol": "BNB",
+        "address": "0x2743465eD9335e099e504A43b214f91a862b8d84",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "BTC",
+        "priceSymbol": "ETH",
+        "address": "0xba6c27A16671583c07db3aC0E8972007202Ee8e1",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "BUSD",
+        "priceSymbol": "BNB",
+        "address": "0x378147240Ead83983F2fd54A3c5E9cc9c24B8a4B",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "BUSD",
+        "priceSymbol": "USD",
+        "address": "0x4aEC9f91FD02aE861D10e23E83f7f4833FFea4F5",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "BZRX",
+        "priceSymbol": "USD",
+        "address": "0x662357903CabafEa7655397beB4a3D05b882aD3C",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "CAKE",
+        "priceSymbol": "BNB",
+        "address": "0xBC99E1a36e6b841fB8F56543B4783e9546F31eaE",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "CAKE",
+        "priceSymbol": "USD",
+        "address": "0x1f2Fc2D2b0c9DDd802c35762ac3f49853DD052aB",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "CFX",
+        "priceSymbol": "USD",
+        "address": "0xdA2334CfE95F4aF8Cd4350498C72020e13e67584",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "CHF",
+        "priceSymbol": "USD",
+        "address": "0x4C37Fa0E2077FEa96c62E483CABDa6372966B272",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "CHR",
+        "priceSymbol": "USD",
+        "address": "0xa7ef5AD2FE61374eC04945e7D24FC206B9776476",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "COIN",
+        "priceSymbol": "USD",
+        "address": "0x5D83631611a4E978b7EFe9D5E3f385eAA6B3Fe7d",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "COMP",
+        "priceSymbol": "USD",
+        "address": "0x7a3AFc594cdDc2011300C236F9A5a7aB3615DB38",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "CREAM",
+        "priceSymbol": "BNB",
+        "address": "0xB12896420D08E947daB047ecaa93f1585fA46015",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "CREAM",
+        "priceSymbol": "USD",
+        "address": "0x9a50756B9Ba16b2E6ad66E2542e7eC554C817f0c",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "DAI",
+        "priceSymbol": "BNB",
+        "address": "0xe5753Fe8d71018D1d05522C6bb0C3E53458D1418",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "DAI",
+        "priceSymbol": "USD",
+        "address": "0xb3F43AEB21f47114273F974D911C2fD57FCA16A9",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "DEGO",
+        "priceSymbol": "USD",
+        "address": "0x63997b3868E5dafD6CB5EB03D142603255b74550",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "DF",
+        "priceSymbol": "USD",
+        "address": "0x3CaFe7aD80ee191b28EeD29FC63950DF14E35bFC",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "DODO",
+        "priceSymbol": "BNB",
+        "address": "0x7AF53bbc41275399C0f3F0199cf695C27e186A1A",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "DODO",
+        "priceSymbol": "USD",
+        "address": "0xcF872F5561F68DF8F8809888120AdD15C1f010dE",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "DOGE",
+        "priceSymbol": "USD",
+        "address": "0x73a3845B5C333CEc06CB8143D03057441c5c0e98",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "DOT",
+        "priceSymbol": "BNB",
+        "address": "0xd708a9c5E6458CfFeEA21eDB2250a83927487155",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "DOT",
+        "priceSymbol": "USD",
+        "address": "0x8467870A19f7BcB2164d0f9C90c12522AcCB27e6",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "DPI",
+        "priceSymbol": "USD",
+        "address": "0xBEdf5FeDA7A0c549A564FcfADfD3c217735e368D",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "EOS",
+        "priceSymbol": "BNB",
+        "address": "0x76543628523536208a99CEb0F025c5375DCDAD89",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "EOS",
+        "priceSymbol": "USD",
+        "address": "0x621897414163057854CAA930C73E10A44A2a4928",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "ETH",
+        "priceSymbol": "BNB",
+        "address": "0x28C20Cf6a03Df0Aa1A0Bc08Ea33ff20845C1b7Bc",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "EUR",
+        "priceSymbol": "USD",
+        "address": "0x56c68c5C1F0b0a38E663AB20052Ca59D8cD86b25",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "FB",
+        "priceSymbol": "USD",
+        "address": "0x3938DaF8307792b0217d234723a150e72956D574",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "FET",
+        "priceSymbol": "USD",
+        "address": "0xF957b83D66Af408E084194A2A59c6cc5Bc7d477D",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "FIL",
+        "priceSymbol": "USD",
+        "address": "0xF6539fA37f4B04993D3F51bDe9Be941d78b99F8c",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "GME",
+        "priceSymbol": "USD",
+        "address": "0xd21fc0C0f0bE1b24032a5afB599E1E07a7D66c6D",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "GOOGL",
+        "priceSymbol": "USD",
+        "address": "0xE815dC14bCfAa6C6FBa912c108576A822CC51473",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "ICP",
+        "priceSymbol": "USD",
+        "address": "0x682BC839DD13a9f07e8293DE95F47de64F95669d",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "INJ",
+        "priceSymbol": "USD",
+        "address": "0x09E605D05d722065f64AD78F76a060A5EB0ca061",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "JPM",
+        "priceSymbol": "USD",
+        "address": "0xC2Da61e5e16021f8DBd1A9a6836cE30cAe1066A9",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "JPY",
+        "priceSymbol": "USD",
+        "address": "0x03F99130225A3e8f73ee2a22685c188686656009",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "LINA",
+        "priceSymbol": "USD",
+        "address": "0x1D23e3F71D4cA21E837ADCAEA04fFaaB98e361B6",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "LINK",
+        "priceSymbol": "BNB",
+        "address": "0xb04E11bb22CC1856A16a78a98b559F2105e42435",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "LINK",
+        "priceSymbol": "USD",
+        "address": "0xf0CB96CeCE13230356173f7C0fAeE5a2F7A3C861",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "LIT",
+        "priceSymbol": "USD",
+        "address": "0xbfDb0D6fe2c35Ac71C79a51483b87545EaB5f5fF",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "LTC",
+        "priceSymbol": "BNB",
+        "address": "0xE9717e5395e6a8D624ddEeee8539646dfa6f89D3",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "LTC",
+        "priceSymbol": "USD",
+        "address": "0x4F80f1F6d9541890f642ae3df356bDBBCAA5b9D2",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "MASK",
+        "priceSymbol": "USD",
+        "address": "0xD4331699eBF1868651E792e8832A954625E377b5",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "MATIC",
+        "priceSymbol": "USD",
+        "address": "0x3b4c2E1f88FA5F8cC2273DFbc42e25228dF2ba31",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "MIM",
+        "priceSymbol": "USD",
+        "address": "0x45564493EE31475FF69577332424538D67b13A03",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "MIR",
+        "priceSymbol": "USD",
+        "address": "0xaaad5ddef8cd869010b22c252b37F690306b9943",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "MRNA",
+        "priceSymbol": "USD",
+        "address": "0x904a9bA4d6c44072bD06BFaff4F844bd15576FCD",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "MS",
+        "priceSymbol": "USD",
+        "address": "0x132203B7dF4Fa14EC38D5f370445eef515c62602",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "MSFT",
+        "priceSymbol": "USD",
+        "address": "0x94D8b7d317b0db25f4D5A75d594C0575fb2216cB",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "NFLX",
+        "priceSymbol": "USD",
+        "address": "0x6974cA976c87699B4e59bb92bD4596b644be4bec",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "NGN",
+        "priceSymbol": "USD",
+        "address": "0x44D3bD0eAc4fc35049494df20331Cc6939aD603f",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "NULS",
+        "priceSymbol": "USD",
+        "address": "0x7963e7923a68795Cf6e02aFC27882203CD01dc5C",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "NVDA",
+        "priceSymbol": "USD",
+        "address": "0x0c948356776f72f705f98F07aF7e7498b805ca5d",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "ONT",
+        "priceSymbol": "USD",
+        "address": "0x101b6122f5d654F22b0AC596c75De1276660763b",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "PACB",
+        "priceSymbol": "USD",
+        "address": "0x92b7470B3B44cF2182bFc718C4157F8D15C7cacf",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "PAXG",
+        "priceSymbol": "USD",
+        "address": "0xA8aDb7a9336E731452c429033123d6425a4B5D94",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "PFE",
+        "priceSymbol": "USD",
+        "address": "0x02893cC1E23B1270db033Bc87f607d292455f286",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "QQQ",
+        "priceSymbol": "USD",
+        "address": "0xfF446C49A66Dca94E774791488a56AC642B7EA5E",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "RAMP",
+        "priceSymbol": "USD",
+        "address": "0x07378A00987f40F3539367AE580EB93bbC62d73e",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "REEF",
+        "priceSymbol": "USD",
+        "address": "0xc5d92a7d222C612795e609F1027EF45417797E74",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "SOL",
+        "priceSymbol": "USD",
+        "address": "0x178c19eE5B6CbE73321E736845E057060af1cA2e",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "SPCE",
+        "priceSymbol": "USD",
+        "address": "0x5EA61a8539519B4A20eeDA136F74A2816F33D6F3",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "SPY",
+        "priceSymbol": "USD",
+        "address": "0x3751523be7d3FE5BE6fAe1a3Aa20566777cADD7D",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "SUSHI",
+        "priceSymbol": "USD",
+        "address": "0x1ee6312b2D861D367299E99F87212306ad8E642e",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "SXP",
+        "priceSymbol": "USD",
+        "address": "0x9ef543e77A70993B4B584A7498c88e9e0f84Ac1b",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "TRX",
+        "priceSymbol": "USD",
+        "address": "0x0e5Bc4799fC414cCB7bBC443bCd651e4D51412af",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "TSLA",
+        "priceSymbol": "USD",
+        "address": "0x892a59337f66b1C1A04F38543A6074cFd7FeC36f",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "TSM",
+        "priceSymbol": "USD",
+        "address": "0x9C396C7502b5582fF4eb65E385aA2962eE0e6Ce5",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "TUSD",
+        "priceSymbol": "USD",
+        "address": "0x5AB18DA477280677ddbf6b7CF7dc7d66a83a8723",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "TWT",
+        "priceSymbol": "BNB",
+        "address": "0x7Af6Cc6ad070281ecbb2BdD747f46F43D412D6AC",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "Total Marketcap",
+        "priceSymbol": "USD",
+        "address": "0xc82480Af5E6B26d5C175f6bEE892Ec59dBc73321",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "UNH",
+        "priceSymbol": "USD",
+        "address": "0x4691cb19AED32aDc593923361eDb12f05cF1FC2F",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "UNI",
+        "priceSymbol": "BNB",
+        "address": "0xb3fC54ef3A702B0916640688C790ECf622fD9af7",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "UNI",
+        "priceSymbol": "USD",
+        "address": "0xE88443d966180520Da0a72039D6eca1FEc5cedfa",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "USDC",
+        "priceSymbol": "BNB",
+        "address": "0x180Ca7d280F05dd62751C4642F8009e66A96bC84",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "USDC",
+        "priceSymbol": "USD",
+        "address": "0x7059D0ae93b93C81bBE1aBA65E0dE157ef67f96B",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "USDN",
+        "priceSymbol": "USD",
+        "address": "0x2681dFE897019A0c25456832209C490eA8ab16d0",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "USDT",
+        "priceSymbol": "BNB",
+        "address": "0x1F6a5A55F00f8B3BfF746A922b60124CD8716535",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "USDT",
+        "priceSymbol": "USD",
+        "address": "0xBE1e0Fd7942E9A6a59Ea8A039744145cb125AC1A",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "UST",
+        "priceSymbol": "USD",
+        "address": "0xFCF04157a4993F7fE16e4c24cd0CCA65bA1a096c",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "VAI",
+        "priceSymbol": "USD",
+        "address": "0x3b532d482094B272565B20505E00B656e6a605F8",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "VT",
+        "priceSymbol": "USD",
+        "address": "0x711dd1524dC6CdAE09ff100232e3e4A8e1F5818A",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "WING",
+        "priceSymbol": "USD",
+        "address": "0x5Cf981F1D4319233cfe42fFf2EEaEd1B259d64A9",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "WOO",
+        "priceSymbol": "USD",
+        "address": "0x0FF97e279C5b18785e8d0e2C1B1435a43D108Ae0",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "WTI",
+        "priceSymbol": "USD",
+        "address": "0x5486085837519BEB4841aFb6CB169b11Dd4CD131",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "XAG",
+        "priceSymbol": "USD",
+        "address": "0x27BeDBD441b5b669109022f981AB279416d1019d",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "XAU",
+        "priceSymbol": "USD",
+        "address": "0x34129bD3f37598FAd2388675c0253D3E913cE806",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "XRP",
+        "priceSymbol": "BNB",
+        "address": "0x4d379E605E9654C74f182E4b90491154190b49FE",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "XRP",
+        "priceSymbol": "USD",
+        "address": "0x14C9e2512f0856Fe110D8E58C329141b80c0d9C4",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "XTZ",
+        "priceSymbol": "BNB",
+        "address": "0x7eBD264946A7f8e48099F212F1b3F87054DF86cF",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "XTZ",
+        "priceSymbol": "USD",
+        "address": "0x2af17224B7a4643bC52f2B066BE1a75cF8ad3ba9",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "XVS",
+        "priceSymbol": "BNB",
+        "address": "0x688D04d242aA198ed806463ace58C4b76C5D0BfD",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "XVS",
+        "priceSymbol": "USD",
+        "address": "0xDBF04BEd11158a3a416A69EB01fBB742b710B612",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "YFI",
+        "priceSymbol": "BNB",
+        "address": "0xb46B6F115311d213972849225F81B75Bd89972b6",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "YFI",
+        "priceSymbol": "USD",
+        "address": "0x41d0939C969949b0968Ea6fA2610CbFD5A089E95",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "YFII",
+        "priceSymbol": "USD",
+        "address": "0xdb131Cb978b8EB86FF0F2F64100dbFd169a1Ed76",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      },
+      {
+        "underlyingAssetSymbol": "ZIL",
+        "priceSymbol": "USD",
+        "address": "0x15710Da61EF0A0346fd33d0cC9E8bb860e006751",
+        "vendor": 0,
+        "type": 1,
+        "canTune": true
+      }
+    ]
+  },
+  "tunableOracleMap": {
+    "421611": [
+      [
+        "0xE2Fe1094F33BCb4366B3B3071bd1E927B38aE402",
+        "0x3741567b65488bE7974C0C10F5c36b821CF3b732"
+      ],
+      [
+        "0x4603BA4a4F17300C5BD631B881D725238D842c8B",
+        "0x77e36c7bf78328d3f570aea04b372c9e26b00f4b"
+      ]
+    ],
+    "42161": [
+      [
+        "0x1Cf22B7f84F86c36Cb191BB24993EdA2b191399E",
+        "0x9F64F38F18530d70B0caD57d6B929Fa8f371d6c6"
+      ],
+      [
+        "0x6ee936BdBD329063E8CE1d13F42eFEf912E85221",
+        "0x78c9014568f8677df0beee444b224e09df519d9e"
+      ]
+    ],
+    "56": [
+      [
+        "0xa04197E5F7971E7AEf78Cf5Ad2bC65aaC1a967Aa",
+        "0x7a6bee1474069dC81AEaf65799276b9429bED587"
+      ],
+      [
+        "0xcC8A884396a7B3a6e61591D5f8949076Ed0c7353",
+        "0x285D90D4a30c30AFAE1c8dc3eaeb41Cc23Ed78Bf"
+      ],
+      [
+        "0xcE7822A60D78Ae685A602985a978dcAdE249b387",
+        "0x4E9712fC3e6Fc35b7b2155Bb92c11bC0BEd836f1"
+      ],
+      [
+        "0x18f06dAE7AcA5343b9b399Ee2B77A51dF8f444Fc",
+        "0x2bc36B3f8f8E3Db2902Ac8cEF650B687deCE25f6"
+      ]
+    ]
+  }
+}
