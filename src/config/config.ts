@@ -5,6 +5,9 @@ interface McdexConfig {
 
 (function (config?: McdexConfig) {
     console.log('MCDEX_CONFIG INIT')
+    // const host = 'http://localhost:8081'
+    const host = 'https://raw.githubusercontent.com/mcdexio/mcdex-assets/master'
+
     if (!config) {
         window.MCDEX_CONFIG = config = {
             configs: {},
@@ -20,7 +23,7 @@ interface McdexConfig {
     }
 
     config.configs['oracle'] = (async () => {
-        const response = await fetch('http://localhost:8081/config/assets/oracle.json')
+        const response = await fetch(`${host}/config/assets/oracle.json`)
         return response.json()
     })()
 

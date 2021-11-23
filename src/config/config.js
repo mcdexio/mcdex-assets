@@ -10,6 +10,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 (function (config) {
     console.log('MCDEX_CONFIG INIT');
+    // const host = 'http://localhost:8081'
+    const host = 'https://raw.githubusercontent.com/mcdexio/mcdex-assets/master';
     if (!config) {
         window.MCDEX_CONFIG = config = {
             configs: {},
@@ -25,7 +27,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         };
     }
     config.configs['oracle'] = (() => __awaiter(this, void 0, void 0, function* () {
-        const response = yield fetch('http://localhost:8081/config/assets/oracle.json');
+        const response = yield fetch(`${host}/config/assets/oracle.json`);
         return response.json();
     }))();
 })(window.MCDEX_CONFIG);
