@@ -42,7 +42,7 @@
         "priceSymbol": "USD",
         "address": "0x231B873bD2ae8707e325fbe45850308e18ed714d",
         "vendor": 0,
-        "type": 1
+        "type": 0
       },
       {
         "underlyingAssetSymbol": "DOT",
@@ -156,7 +156,7 @@
         "priceSymbol": "USD",
         "address": "0xc82480Af5E6B26d5C175f6bEE892Ec59dBc73321",
         "vendor": 0,
-        "type": 1,
+        "type": 0,
         "canTune": true
       },
       {
@@ -332,7 +332,7 @@
         "priceSymbol": "USD",
         "address": "0x2dbD4Bafa043F7634C6B29dD7a00265eAf0ca042",
         "vendor": 2,
-        "type": 1
+        "type": 0
       },
       {
         "underlyingAssetSymbol": "DOT",
@@ -445,7 +445,7 @@
         "priceSymbol": "USD",
         "address": "0xf7E800fEDb98DFCF93689409DDaE7f670208Bd58",
         "vendor": 0,
-        "type": 1,
+        "type": 0,
         "canTune": true
       },
       {
@@ -493,7 +493,7 @@
         "priceSymbol": "USD",
         "address": "0xDe3a17CCF7905967D2837F1680a93EcECa1849fF",
         "vendor": 0,
-        "type": 1,
+        "type": 0,
         "canTune": true
       },
       {
@@ -501,7 +501,7 @@
         "priceSymbol": "USD",
         "address": "0x86BB3818336976A251de8B8e37D4DF4CEbCacf41",
         "vendor": 0,
-        "type": 1,
+        "type": 0,
         "canTune": true
       },
       {
@@ -581,7 +581,7 @@
         "priceSymbol": "USD",
         "address": "0x32fc94f5E0351B673Aaa7a6C0893246f5dCD9d73",
         "vendor": 0,
-        "type": 1,
+        "type": 0,
         "canTune": true
       },
       {
@@ -597,7 +597,7 @@
         "priceSymbol": "USD",
         "address": "0xa9ceEdB6710fDAed8077744570384eE1d75D0b27",
         "vendor": 0,
-        "type": 1,
+        "type": 0,
         "canTune": true
       },
       {
@@ -789,7 +789,7 @@
         "priceSymbol": "USD",
         "address": "0xBEdf5FeDA7A0c549A564FcfADfD3c217735e368D",
         "vendor": 0,
-        "type": 1,
+        "type": 0,
         "canTune": true
       },
       {
@@ -829,7 +829,7 @@
         "priceSymbol": "USD",
         "address": "0x3938DaF8307792b0217d234723a150e72956D574",
         "vendor": 0,
-        "type": 1,
+        "type": 0,
         "canTune": true
       },
       {
@@ -853,7 +853,7 @@
         "priceSymbol": "USD",
         "address": "0xd21fc0C0f0bE1b24032a5afB599E1E07a7D66c6D",
         "vendor": 0,
-        "type": 1,
+        "type": 0,
         "canTune": true
       },
       {
@@ -885,7 +885,7 @@
         "priceSymbol": "USD",
         "address": "0xC2Da61e5e16021f8DBd1A9a6836cE30cAe1066A9",
         "vendor": 0,
-        "type": 1,
+        "type": 0,
         "canTune": true
       },
       {
@@ -893,7 +893,7 @@
         "priceSymbol": "USD",
         "address": "0x03F99130225A3e8f73ee2a22685c188686656009",
         "vendor": 0,
-        "type": 1,
+        "type": 0,
         "canTune": true
       },
       {
@@ -981,7 +981,7 @@
         "priceSymbol": "USD",
         "address": "0x904a9bA4d6c44072bD06BFaff4F844bd15576FCD",
         "vendor": 0,
-        "type": 1,
+        "type": 0,
         "canTune": true
       },
       {
@@ -997,7 +997,7 @@
         "priceSymbol": "USD",
         "address": "0x94D8b7d317b0db25f4D5A75d594C0575fb2216cB",
         "vendor": 0,
-        "type": 1,
+        "type": 0,
         "canTune": true
       },
       {
@@ -1005,7 +1005,7 @@
         "priceSymbol": "USD",
         "address": "0x6974cA976c87699B4e59bb92bD4596b644be4bec",
         "vendor": 0,
-        "type": 1,
+        "type": 0,
         "canTune": true
       },
       {
@@ -1029,7 +1029,7 @@
         "priceSymbol": "USD",
         "address": "0x0c948356776f72f705f98F07aF7e7498b805ca5d",
         "vendor": 0,
-        "type": 1,
+        "type": 0,
         "canTune": true
       },
       {
@@ -1053,7 +1053,7 @@
         "priceSymbol": "USD",
         "address": "0xA8aDb7a9336E731452c429033123d6425a4B5D94",
         "vendor": 0,
-        "type": 1,
+        "type": 0,
         "canTune": true
       },
       {
@@ -1061,7 +1061,7 @@
         "priceSymbol": "USD",
         "address": "0x02893cC1E23B1270db033Bc87f607d292455f286",
         "vendor": 0,
-        "type": 1,
+        "type": 0,
         "canTune": true
       },
       {
@@ -1101,7 +1101,7 @@
         "priceSymbol": "USD",
         "address": "0x5EA61a8539519B4A20eeDA136F74A2816F33D6F3",
         "vendor": 0,
-        "type": 1,
+        "type": 0,
         "canTune": true
       },
       {
@@ -1109,7 +1109,7 @@
         "priceSymbol": "USD",
         "address": "0x3751523be7d3FE5BE6fAe1a3Aa20566777cADD7D",
         "vendor": 0,
-        "type": 1,
+        "type": 0,
         "canTune": true
       },
       {
@@ -1149,7 +1149,7 @@
         "priceSymbol": "USD",
         "address": "0x9C396C7502b5582fF4eb65E385aA2962eE0e6Ce5",
         "vendor": 0,
-        "type": 1,
+        "type": 0,
         "canTune": true
       },
       {
