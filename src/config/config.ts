@@ -1,6 +1,6 @@
 interface McdexConfig {
     configs: { [key: string]: Promise<any> }
-    onResolve: (configKey: string, callback: (config: any) => void) => Promise<void>
+    onResolve: (configKey: string | string[]) => Promise<any>
 }
 
 (function (config?: McdexConfig) {
@@ -11,20 +11,30 @@ interface McdexConfig {
     if (!config) {
         window.MCDEX_CONFIG = config = {
             configs: {},
-            onResolve: async (configKey: string | string[], callback: (config: any) => void) => {
+            onResolve: async (configKey: string | string[]) => {
                 if (configKey instanceof Array) {
-                    const configs = await Promise.all(configKey.map(key => window.MCDEX_CONFIG.configs[key]))
-                    callback(configs)
+                    return Promise.all(configKey.map(key => window.MCDEX_CONFIG.configs[key]))
                 } else {
-                    callback(await window.MCDEX_CONFIG.configs[configKey])
+                    return window.MCDEX_CONFIG.configs[configKey]
                 }
             }
         }
     }
 
+    const fetchFunc = async (uri: string, retryTimes = 5): Promise<Response> => {
+        try {
+            return await fetch(`${host}/${uri}`)
+        } catch (e) {
+            if (retryTimes > 0) {
+                console.log('retry fetch time', 6 - retryTimes, uri)
+                return await fetchFunc(uri,retryTimes - 1)
+            }
+            throw e
+        }
+    }
+
     config.configs['oracle'] = (async () => {
-        const response = await fetch(`${host}/src/config/assets/oracle.json`)
-        return response.json()
+        return (await fetchFunc('src/config/assets/oracle.json')).json()
     })()
 
 })(window.MCDEX_CONFIG)

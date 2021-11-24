@@ -9,6 +9,13 @@
     "MCDEX": 2
   },
   "chain": {
+    "MAINNET": 1,
+    "RINKEBY": 4,
+    "KOVAN": 42,
+    "S10POA": 1337,
+    "S10ARB": 246955447367734,
+    "OPTIMISM": 10,
+    "OPTIMISM_TESTNET": 69,
     "ARB_TESTNET": 421611,
     "ARB": 42161,
     "BSC": 56
@@ -814,7 +821,7 @@
         "priceSymbol": "USD",
         "address": "0x56c68c5C1F0b0a38E663AB20052Ca59D8cD86b25",
         "vendor": 0,
-        "type": 1,
+        "type": 0,
         "canTune": true
       },
       {
@@ -854,7 +861,7 @@
         "priceSymbol": "USD",
         "address": "0xE815dC14bCfAa6C6FBa912c108576A822CC51473",
         "vendor": 0,
-        "type": 1,
+        "type": 0,
         "canTune": true
       },
       {
@@ -1134,7 +1141,7 @@
         "priceSymbol": "USD",
         "address": "0x892a59337f66b1C1A04F38543A6074cFd7FeC36f",
         "vendor": 0,
-        "type": 1,
+        "type": 0,
         "canTune": true
       },
       {

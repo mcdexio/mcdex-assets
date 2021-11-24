@@ -15,19 +15,29 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     if (!config) {
         window.MCDEX_CONFIG = config = {
             configs: {},
-            onResolve: (configKey, callback) => __awaiter(this, void 0, void 0, function* () {
+            onResolve: (configKey) => __awaiter(this, void 0, void 0, function* () {
                 if (configKey instanceof Array) {
-                    const configs = yield Promise.all(configKey.map(key => window.MCDEX_CONFIG.configs[key]));
-                    callback(configs);
+                    return Promise.all(configKey.map(key => window.MCDEX_CONFIG.configs[key]));
                 }
                 else {
-                    callback(yield window.MCDEX_CONFIG.configs[configKey]);
+                    return window.MCDEX_CONFIG.configs[configKey];
                 }
             })
         };
     }
+    const fetchFunc = (uri, retryTimes = 5) => __awaiter(this, void 0, void 0, function* () {
+        try {
+            return yield fetch(`${host}/${uri}`);
+        }
+        catch (e) {
+            if (retryTimes > 0) {
+                console.log('retry fetch time', 6 - retryTimes, uri);
+                return yield fetchFunc(uri, retryTimes - 1);
+            }
+            throw e;
+        }
+    });
     config.configs['oracle'] = (() => __awaiter(this, void 0, void 0, function* () {
-        const response = yield fetch(`${host}/src/config/assets/oracle.json`);
-        return response.json();
+        return (yield fetchFunc('src/config/assets/oracle.json')).json();
     }))();
 })(window.MCDEX_CONFIG);
