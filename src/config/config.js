@@ -15,8 +15,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     const configs = new Map([
         ['oracle', 'src/config/assets/oracle.json'],
         ['pool', 'src/config/assets/pool.json'],
-        ['tradingMiningMerkel', 'src/config/assets/tradingMiningMerkel.json'],
-        ['gasFeeRebateMerkel', 'src/config/assets/gasFeeRebateMerkel.json'],
+        ['tradingMiningMerkle', 'src/config/assets/tradingMiningMerkle.json'],
+        ['gasFeeRebateMerkle', 'src/config/assets/gasFeeRebateMerkle.json'],
     ]);
     if (!config) {
         window.MCDEX_CONFIG = config = {
