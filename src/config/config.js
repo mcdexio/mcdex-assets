@@ -12,6 +12,10 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     console.log('MCDEX_CONFIG INIT');
     // const host = 'http://localhost:8081'
     const host = 'https://mcdexio.github.io/mcdex-assets';
+    const configs = new Map([
+        ['oracle', 'src/config/assets/oracle.json'],
+        ['pool', 'src/config/assets/pool.json']
+    ]);
     if (!config) {
         window.MCDEX_CONFIG = config = {
             configs: {},
@@ -37,7 +41,9 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
             throw e;
         }
     });
-    config.configs['oracle'] = (() => __awaiter(this, void 0, void 0, function* () {
-        return (yield fetchFunc('src/config/assets/oracle.json')).json();
-    }))();
+    configs.forEach((uri, key) => {
+        window.MCDEX_CONFIG.configs[key] = (() => __awaiter(this, void 0, void 0, function* () {
+            return (yield fetchFunc(uri)).json();
+        }))();
+    });
 })(window.MCDEX_CONFIG);

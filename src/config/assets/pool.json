@@ -1,0 +1,99 @@
+{
+  "chain": {
+    "MAINNET": 1,
+    "RINKEBY": 4,
+    "KOVAN": 42,
+    "S10POA": 1337,
+    "S10ARB": 246955447367734,
+    "OPTIMISM": 10,
+    "OPTIMISM_TESTNET": 69,
+    "ARB_TESTNET": 421611,
+    "ARB": 42161,
+    "BSC": 56
+  },
+  "certifiedPools": {
+    "42161": [
+      {
+        "poolAddress": "0xab324146c49b23658e5b3930e641bdbdf089cbac",
+        "name": "USDC Pool"
+      },
+      {
+        "poolAddress": "0xc7b2ad78fded2bbc74b50dc1881ce0f81a7a0cca",
+        "name": "ETH Pool"
+      }
+    ],
+    "421611": [
+      {
+        "poolAddress": "0xc32a2dfee97e2babc90a2b5e6aef41e789ef2e13",
+        "name": "USDC Pool"
+      }
+    ],
+    "56": [
+      {
+        "poolAddress": "0xdb282bbace4e375ff2901b84aceb33016d0d663d",
+        "name": "BUSD Pool"
+      },
+      {
+        "poolAddress": "0x2ea001032b0eb424120b4dec51bf02db0df46c78",
+        "name": "BTCB Pool"
+      },
+      {
+        "poolAddress": "0xf6b2d76c248af20009188139660a516e5c4e0532",
+        "name": "ETH Pool"
+      },
+      {
+        "poolAddress": "0x0a848c92295369794d38dfa1e4d26612cad2dfa8",
+        "name": "USX Pool"
+      },
+      {
+        "poolAddress": "0xd2bb2ff558ba807866db36d9d1e8d31ee7076862",
+        "name": "MIM Pool"
+      },
+      {
+        "poolAddress": "0x23cda00836e60d213d8e7b0c50c1e268e67b96f1",
+        "name": "USDO Pool"
+      },
+      {
+        "poolAddress": "0xe5ee45c397b52f2f4a671a17fa4d6d3f27a3099a",
+        "name": "SQUID Pool",
+        "poolIcon": "SQUID"
+      }
+    ]
+  },
+  "liquidityMiningPools": {
+    "42161": [
+      {
+        "poolAddress": "0xab324146c49b23658e5b3930e641bdbdf089cbac",
+        "name": "USDC Pool"
+      },
+      {
+        "poolAddress": "0xc7b2ad78fded2bbc74b50dc1881ce0f81a7a0cca",
+        "name": "ETH Pool"
+      }
+    ],
+    "421611": [
+      {
+        "poolAddress": "0xc32a2dfee97e2babc90a2b5e6aef41e789ef2e13",
+        "name": "USDC Pool"
+      }
+    ],
+    "56": [
+      {
+        "poolAddress": "0xdb282bbace4e375ff2901b84aceb33016d0d663d",
+        "name": "BUSD Pool"
+      },
+      {
+        "poolAddress": "0x2ea001032b0eb424120b4dec51bf02db0df46c78",
+        "name": "BTCB Pool"
+      },
+      {
+        "poolAddress": "0xf6b2d76c248af20009188139660a516e5c4e0532",
+        "name": "ETH Pool"
+      },
+      {
+        "poolAddress": "0x23cda00836e60d213d8e7b0c50c1e268e67b96f1",
+        "name": "USDO Pool"
+      }
+    ]
+  }
+}
