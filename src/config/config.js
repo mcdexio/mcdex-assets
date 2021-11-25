@@ -14,7 +14,9 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     const host = 'https://mcdexio.github.io/mcdex-assets';
     const configs = new Map([
         ['oracle', 'src/config/assets/oracle.json'],
-        ['pool', 'src/config/assets/pool.json']
+        ['pool', 'src/config/assets/pool.json'],
+        ['tradingMiningMerkel', 'src/config/assets/tradingMiningMerkel.json'],
+        ['gasFeeRebateMerkel', 'src/config/assets/gasFeeRebateMerkel.json'],
     ]);
     if (!config) {
         window.MCDEX_CONFIG = config = {

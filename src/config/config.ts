@@ -9,7 +9,9 @@ interface McdexConfig {
     const host = 'https://mcdexio.github.io/mcdex-assets'
     const configs = new Map<string, string>([
         ['oracle', 'src/config/assets/oracle.json'],
-        ['pool', 'src/config/assets/pool.json']
+        ['pool', 'src/config/assets/pool.json'],
+        ['tradingMiningMerkel', 'src/config/assets/tradingMiningMerkel.json'],
+        ['gasFeeRebateMerkel', 'src/config/assets/gasFeeRebateMerkel.json'],
     ])
 
     if (!config) {
