@@ -63,10 +63,6 @@
   "liquidityMiningPools": {
     "42161": [
       {
-        "poolAddress": "0xab324146c49b23658e5b3930e641bdbdf089cbac",
-        "name": "USDC Pool"
-      },
-      {
         "poolAddress": "0xc7b2ad78fded2bbc74b50dc1881ce0f81a7a0cca",
         "name": "ETH Pool"
       }
