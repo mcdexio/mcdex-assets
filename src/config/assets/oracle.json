@@ -172,7 +172,7 @@
         "priceSymbol": "USD",
         "address": "0xE88443d966180520Da0a72039D6eca1FEc5cedfa",
         "vendor": 0,
-        "type": 1,
+        "type": 0,
         "canTune": true
       },
       {
@@ -252,7 +252,7 @@
         "priceSymbol": "USD",
         "address": "0x5486085837519BEB4841aFb6CB169b11Dd4CD131",
         "vendor": 0,
-        "type": 1,
+        "type": 0,
         "canTune": true
       },
       {
@@ -1013,7 +1013,7 @@
         "priceSymbol": "USD",
         "address": "0x44D3bD0eAc4fc35049494df20331Cc6939aD603f",
         "vendor": 0,
-        "type": 1,
+        "type": 0,
         "canTune": true
       },
       {
@@ -1285,7 +1285,7 @@
         "priceSymbol": "USD",
         "address": "0x5486085837519BEB4841aFb6CB169b11Dd4CD131",
         "vendor": 0,
-        "type": 1,
+        "type": 0,
         "canTune": true
       },
       {
