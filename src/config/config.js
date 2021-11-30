@@ -15,6 +15,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     const configs = new Map([
         ['oracle', 'src/config/assets/oracle.json'],
         ['pool', 'src/config/assets/pool.json'],
+        ['token', 'src/config/assets/token.json'],
         ['tradingMiningMerkle', 'src/config/assets/tradingMiningMerkle.json'],
         ['gasFeeRebateMerkle', 'src/config/assets/gasFeeRebateMerkle.json'],
     ]);

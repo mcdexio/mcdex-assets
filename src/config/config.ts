@@ -10,6 +10,7 @@ interface McdexConfig {
     const configs = new Map<string, string>([
         ['oracle', 'src/config/assets/oracle.json'],
         ['pool', 'src/config/assets/pool.json'],
+        ['token', 'src/config/assets/token.json'],
         ['tradingMiningMerkle', 'src/config/assets/tradingMiningMerkle.json'],
         ['gasFeeRebateMerkle', 'src/config/assets/gasFeeRebateMerkle.json'],
     ])
