@@ -18,7 +18,8 @@
     "OPTIMISM_TESTNET": 69,
     "ARB_TESTNET": 421611,
     "ARB": 42161,
-    "BSC": 56
+    "BSC": 56,
+    "CLOVER_TESTNET": 1023
   },
   "oracles": {
     "10": [],
@@ -1752,9 +1753,19 @@
         "type": 1,
         "canTune": true
       }
+    ],
+    "1023": [
+      {
+        "underlyingAssetSymbol": "BTC",
+        "priceSymbol": "USD",
+        "address": "0x1C1553C02430E93c66E024cb1DF0c08Bf7D4774f",
+        "vendor": 2,
+        "type": 1
+      }
     ]
   },
   "tunableOracleMap": {
+    "1023": [],
     "421611": [
       [
         "0xE2Fe1094F33BCb4366B3B3071bd1E927B38aE402",

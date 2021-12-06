@@ -9,7 +9,8 @@
     "OPTIMISM_TESTNET": 69,
     "ARB_TESTNET": 421611,
     "ARB": 42161,
-    "BSC": 56
+    "BSC": 56,
+    "CLOVER_TESTNET": 1023
   },
   "certifiedPools": {
     "42161": [
@@ -57,6 +58,12 @@
         "poolAddress": "0xe5ee45c397b52f2f4a671a17fa4d6d3f27a3099a",
         "name": "SQUID Pool",
         "poolIcon": "SQUID"
+      }
+    ],
+    "1023": [
+      {
+        "poolAddress": "0x0074Dd756c7f564b736E3cc686792f3C5F3779F7",
+        "name": "USDC Pool"
       }
     ]
   },
