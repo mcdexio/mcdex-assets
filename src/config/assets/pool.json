@@ -68,12 +68,7 @@
     ]
   },
   "liquidityMiningPools": {
-    "42161": [
-      {
-        "poolAddress": "0xc7b2ad78fded2bbc74b50dc1881ce0f81a7a0cca",
-        "name": "ETH Pool"
-      }
-    ],
+    "42161": [],
     "421611": [
       {
         "poolAddress": "0xc32a2dfee97e2babc90a2b5e6aef41e789ef2e13",
@@ -92,10 +87,6 @@
       {
         "poolAddress": "0xf6b2d76c248af20009188139660a516e5c4e0532",
         "name": "ETH Pool"
-      },
-      {
-        "poolAddress": "0x23cda00836e60d213d8e7b0c50c1e268e67b96f1",
-        "name": "USDO Pool"
       }
     ]
   }
