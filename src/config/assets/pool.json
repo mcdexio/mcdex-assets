@@ -68,7 +68,12 @@
     ]
   },
   "liquidityMiningPools": {
-    "42161": [],
+    "42161": [
+      {
+        "poolAddress": "0xc7b2ad78fded2bbc74b50dc1881ce0f81a7a0cca",
+        "name": "ETH Pool"
+      }
+    ],
     "421611": [
       {
         "poolAddress": "0xc32a2dfee97e2babc90a2b5e6aef41e789ef2e13",
@@ -79,14 +84,6 @@
       {
         "poolAddress": "0xdb282bbace4e375ff2901b84aceb33016d0d663d",
         "name": "BUSD Pool"
-      },
-      {
-        "poolAddress": "0x2ea001032b0eb424120b4dec51bf02db0df46c78",
-        "name": "BTCB Pool"
-      },
-      {
-        "poolAddress": "0xf6b2d76c248af20009188139660a516e5c4e0532",
-        "name": "ETH Pool"
       }
     ]
   }
